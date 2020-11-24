@@ -22,7 +22,7 @@ module.exports = async (query) => {
   data = data.map((el) => {
     return {
       url: el.url,
-      headline: el.headline,
+      heading: el.headline,
       description: el.description,
       image: el.image ? el.image.src : null,
     };

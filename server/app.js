@@ -28,6 +28,11 @@ app.get("/", async (req, res) => {
     });
   } catch (error) {
     console.log(error);
+    res.json({
+      cnnNews: null,
+      bbcNews: null,
+      expressNews: null,
+    });
   }
 });
 

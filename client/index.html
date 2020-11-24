@@ -172,6 +172,11 @@
     },
     async created() {
       this.isLoading = true;
+      this.news = {
+        cnnNews: null,
+        bbcNews: null,
+        expressNews: null,
+      };
       let data = await axios.get(`http://localhost:3000?q=sports`);
       this.news = data.data;
       this.isLoading = false;
