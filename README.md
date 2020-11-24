@@ -13,4 +13,4 @@ This is simple project about scraping CNN, BBC and Express search result and ret
 # preview
 
 ![API Response](./preview/api_response.png)
-![UI](./preview/untitled.png)
+![UI](./preview/UI.png)
