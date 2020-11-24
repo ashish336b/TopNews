@@ -24,7 +24,7 @@ module.exports = async (query) => {
       url: el.url,
       headline: el.headline,
       description: el.description,
-      image: el.image.src,
+      image: el.image ? el.image.src : null,
     };
   });
   return data;

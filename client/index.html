@@ -75,9 +75,16 @@
             <div class="col-lg-3" v-for="item in news.bbcNews">
               <div class="card">
                 <img
+                  v-if="item.image != null"
                   :src="item.image"
                   class="card-img-top img-fluid img-thumbnail"
                   alt="image"
+                />
+                <img
+                  src="./images/default.jpg"
+                  v-else
+                  alt=""
+                  class="card-img-top img-fluid img-thumbnail"
                 />
 
                 <div class="card-body">
