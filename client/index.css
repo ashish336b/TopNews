@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,500;1,200&display=swap");
+body {
+  font-family: "Texturina", serif;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.card a:hover {
+  color: rgb(73, 45, 231);
+}
+
+.spinner-border {
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.description {
+  text-align: justify;
+}
