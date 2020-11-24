@@ -1,6 +1,8 @@
 # TopNews
 
-### This is simple project about scraping CNN, BBC and Express search result and returning the result into json format.
+This is simple project about scraping CNN, BBC and Express search result and returning the result into json format.
+
+# Scraped URL
 
 #### BBC : https://www.bbc.co.uk/search?q=sports
 
