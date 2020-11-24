@@ -10,6 +10,12 @@ This is simple project about scraping CNN, BBC and Express search result and ret
 
 #### Express : https://www.express.co.uk/search?s=sports
 
+# Api endpoint
+
+```http
+http://localhost:3000/?q=search_text
+```
+
 # preview
 
 ![API Response](./preview/api_response.png)
