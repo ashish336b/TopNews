@@ -9,7 +9,9 @@ module.exports = async (query) => {
     let $$ = cheerio.load($(el).html());
     let heading = $$(".post-title").text();
     let description = $$(".post-content p:nth-child(3)").text();
-    let image = $$(".post-content .lazy-container picture img").attr("src");
+    let image = $$(".post-content .lazy-container picture img").attr(
+      "data-src"
+    );
 
     return {
       url: detailsLinks,
